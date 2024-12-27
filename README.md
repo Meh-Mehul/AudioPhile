@@ -1,6 +1,6 @@
 # AudioPhile
 C++ Library for Sound Processing and Editing, mainly meant for pre-processing tasks and fun.
-## Introdcution
+## Introduction
 This is a C++ Library for Audio Processing made to work with PortAudio Sound API. It includes various methods that we can use with an audio sample. This was made for audio pre-processing tasks for machine learning. Although i have not tested all functions, most of them work as intended.
 
 Current Implementation is tested on Linux and WSL.
