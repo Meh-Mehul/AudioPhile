@@ -14,9 +14,8 @@ int main() {
     try {
         
         // 1. Open a test sample (.wav format only)
-        AudioFile audio("good.wav");
+        AudioFile audio("test.wav");
         // 2. Play the sample
-        audio.speedUp(1.4);
         audio.playAudio(deviceID);
         // 3. Change Loudness Channel-Wise
         audio.changeLoudness(0.5, "L");
